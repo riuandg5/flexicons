@@ -1,0 +1,12 @@
+.gsicon{
+	position: relative;
+	width: 150em;
+	height: 150em;
+	left: 25em;
+	top: 25em;
+	background-color: inherit;
+	border-radius: 150em;
+	-webkit-box-shadow: 0 0 0 25em #353443;
+	        box-shadow: 0 0 0 25em #353443;
+	cursor: pointer;
+}
