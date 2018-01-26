@@ -6,7 +6,6 @@
 	top: 44em;
 	background-color: #f57f17;
 	border-radius: 0px 10em 10em 10em;
-	cursor: pointer;
 }
 .folder:before,.folder-empty:before{
 	position: absolute;
