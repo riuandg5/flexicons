@@ -14,7 +14,7 @@
 	background-color: #00695C;
 }
 .head h1{
-	font-size: 5em;
+	font-size: 4em;
 }
 .head p{
 	font-size: 1.5em;
@@ -40,6 +40,7 @@
 	background-color: #CFD8DC;
 	overflow: hidden;
  	margin: 20em 10em;
+ 	cursor: pointer;
 }
 .transparent{
 	background-color: transparent;
