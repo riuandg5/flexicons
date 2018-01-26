@@ -1,0 +1,91 @@
+.indian-flag{
+	position: relative;
+	width: 200em;
+	height: 40em;
+	top: 40em;
+	background-color: #ff9933;
+	-webkit-box-shadow:
+		0 40em 0 0 #ffffff,
+		0 80em 0 0 #138808;
+	        box-shadow:
+		0 40em 0 0 #ffffff,
+		0 80em 0 0 #138808;
+}
+.indian-flag:before{
+	position: absolute;
+	content: '';
+	width: 5em;
+	height: 5em;
+	left: 97.5em;
+	top: 57.5em;
+	border-radius: 2.5em;
+	background-color: #000080;
+	-webkit-box-shadow:
+		0 0 1.5em 13em #ffffff,
+		0 0 0.5em 16em #000080;
+	        box-shadow:
+		0 0 1.5em 13em #ffffff,
+		0 0 0.5em 16em #000080;
+}
+.indian-flag:after{
+	position: absolute;
+	content: '';
+	width: 30em;
+	height: 30em;
+	left: 85em;
+	top: 45em;
+	border-radius: 15em;
+	background:
+		-webkit-linear-gradient(left, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(top, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(75deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(60deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(45deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(30deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(15deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(105deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(120deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(135deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(150deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-webkit-linear-gradient(165deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em);
+	background:
+		-o-linear-gradient(left, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(top, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(75deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(60deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(45deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(30deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(15deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(105deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(120deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(135deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(150deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		-o-linear-gradient(165deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em);
+	background:
+		linear-gradient(to right, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(to bottom, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(15deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(30deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(45deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(60deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(75deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(-15deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(-30deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(-45deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(-60deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em),
+		linear-gradient(-75deg, transparent 14em,#000080 15em,#000080 15em,transparent 16em);
+	background-color: transparent;
+	background-position:
+		0 0,
+		0 0,
+		0 -3.4em,
+		0 -6.2em,
+		4.2em -4.4em,
+		5.2em -1.8em,
+		3.4em 0,
+		0 -3.4em,
+		0 -6.2em,
+		-4.2em -4.2em,
+		-6em 0em,
+		-3.2em 0em;
+}
