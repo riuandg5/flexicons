@@ -8,7 +8,6 @@
 	    -ms-transform: rotate(45deg);
 	        transform: rotate(45deg);
 	background-color: red;
-	cursor: pointer;
 }
 .heart:before,.heart:after{
 	position: absolute;
