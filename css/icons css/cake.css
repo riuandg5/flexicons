@@ -1,0 +1,107 @@
+.cake{
+    position: relative;
+    width: 200em;
+    height: 60em;
+    left: 0;
+    top: 95em;
+    background-color: white;
+    border-radius: 100em / 30em;
+    -webkit-box-shadow:
+        0 5em 0 0 #ccc,
+        0 8em 2em 0 rgba(0,0,0,0.1);
+            box-shadow:
+        0 5em 0 0 #ccc,
+        0 8em 2em 0 rgba(0,0,0,0.1);
+}
+.cake:before{
+    position: absolute;
+    content: '';
+    width: 160em;
+    height: 82em;
+    left: 20em;
+    top: -30em;
+    background-color: #FFF59D;
+    border-radius: 80em 80em 80em 80em / 4em 4em 25em 25em;
+    background-image:
+        -webkit-linear-gradient(left,#FFE082 48em,#FFD54F 48em,transparent 48em),
+        -webkit-linear-gradient(left,transparent 32em,#FFE082 32em,#FFD54F 50em),
+        -webkit-linear-gradient(130deg,white 22em,transparent 22em),
+        -webkit-linear-gradient(50deg,white 22em,transparent 22em),
+        -webkit-linear-gradient(left,transparent 10em,pink 39em,transparent 50em);
+    background-image:
+        -o-linear-gradient(left,#FFE082 48em,#FFD54F 48em,transparent 48em),
+        -o-linear-gradient(left,transparent 32em,#FFE082 32em,#FFD54F 50em),
+        -o-linear-gradient(130deg,white 22em,transparent 22em),
+        -o-linear-gradient(50deg,white 22em,transparent 22em),
+        -o-linear-gradient(left,transparent 10em,pink 39em,transparent 50em);
+    background-image:
+        linear-gradient(to right,#FFE082 48em,#FFD54F 48em,transparent 48em),
+        linear-gradient(to right,transparent 32em,#FFE082 32em,#FFD54F 50em),
+        linear-gradient(-40deg,white 22em,transparent 22em),
+        linear-gradient(40deg,white 22em,transparent 22em),
+        linear-gradient(to right,transparent 10em,pink 39em,transparent 50em);
+    background-size: 80em 82em;
+    background-position:
+        0 0,
+        80em 0,
+        0 0,
+        80em 0,
+        40em 0;
+    background-repeat: no-repeat;
+}
+.cake:after{
+    position: absolute;
+    content: '';
+    width: 160em;
+    height: 48em;
+    left: 20em;
+    top: -50em;
+    background-color: transparent;
+    border-radius: 80em / 24em;
+    background-image:
+        -webkit-radial-gradient(white 0.5em,#d31339 3em),
+        -webkit-radial-gradient(#d31339 7.5em,black 8em,transparent 8em),
+        -webkit-radial-gradient(white 0.5em,#dc143c 3.5em),
+        -webkit-radial-gradient(#dc143c 7.5em,black 8em,transparent 8em),
+        -webkit-radial-gradient(white 0.5em,#ad102f 3.5em),
+        -webkit-radial-gradient(#ad102f 7.5em,black 8em,transparent 8em),
+        -webkit-linear-gradient(125deg,transparent 20em,#FFF176 20em),
+        -webkit-linear-gradient(55deg,transparent 20em,#FFF176 20em);
+    background-image:
+        -o-radial-gradient(white 0.5em,#d31339 3em),
+        -o-radial-gradient(#d31339 7.5em,black 8em,transparent 8em),
+        -o-radial-gradient(white 0.5em,#dc143c 3.5em),
+        -o-radial-gradient(#dc143c 7.5em,black 8em,transparent 8em),
+        -o-radial-gradient(white 0.5em,#ad102f 3.5em),
+        -o-radial-gradient(#ad102f 7.5em,black 8em,transparent 8em),
+        -o-linear-gradient(125deg,transparent 20em,#FFF176 20em),
+        -o-linear-gradient(55deg,transparent 20em,#FFF176 20em);
+    background-image:
+        radial-gradient(white 0.5em,#d31339 3em),
+        radial-gradient(#d31339 7.5em,black 8em,transparent 8em),
+        radial-gradient(white 0.5em,#dc143c 3.5em),
+        radial-gradient(#dc143c 7.5em,black 8em,transparent 8em),
+        radial-gradient(white 0.5em,#ad102f 3.5em),
+        radial-gradient(#ad102f 7.5em,black 8em,transparent 8em),
+        linear-gradient(-35deg,transparent 20em,#FFF176 20em),
+        linear-gradient(35deg,transparent 20em,#FFF176 20em);
+    background-size:
+        5em 5em,
+        20em 20em,
+        5em 5em,
+        20em 20em,
+        5em 5em,
+        20em 20em,
+        80em 48em,
+        80em 48em;
+    background-position:
+        79.5em 9.5em,
+        75em 5em,
+        69em 7em,
+        64em 3em,
+        78em 1.8em,
+        72em -1em,
+        0 0,
+        80em 0;
+    background-repeat: no-repeat;
+}
