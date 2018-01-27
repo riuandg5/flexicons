@@ -43,6 +43,7 @@
 	overflow: hidden;
  	margin: 20em 10em;
  	outline: 1em solid #00bf9a;
+	outline-offset: 10em;
  	cursor: pointer;
 }
 .footer{
