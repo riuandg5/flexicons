@@ -11,7 +11,8 @@
 	color: white;
 	text-shadow: 0.2em 0.2em 0.2em black;
 	padding: 2em;
-	background-color: #00695C;
+	background-color: #008975;
+	border-bottom: 0.3em solid #80CBC4;
 }
 .head h1{
 	font-size: 4em;
@@ -31,19 +32,18 @@
  	-webkit-box-pack: space-evenly;
  	    -ms-flex-pack: space-evenly;
  	        justify-content: space-evenly;
- 	background-color: #00BFA5;
+ 	padding: 1em 0;
+ 	background-color: #EEEEEE;
 }
 .icon-container{
 	font-size: 1px;
 	width: 200em;
 	height: 200em;
-	background-color: #CFD8DC;
+	background-color: inherit;
 	overflow: hidden;
  	margin: 20em 10em;
+ 	outline: 1em solid #00bf9a;
  	cursor: pointer;
-}
-.transparent{
-	background-color: transparent;
 }
 .footer{
 	text-align: center;
@@ -51,5 +51,6 @@
 	color: white;
 	text-shadow: 0.08em 0.08em 0.1em black;
 	padding: 0.5em;
-	background-color: #00695C;
+	background-color: #008975;
+	border-top: 0.15em solid #80CBC4;
 }
