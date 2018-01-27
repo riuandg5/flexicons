@@ -46,6 +46,10 @@
  	outline-offset: 10em;
  	cursor: pointer;
 }
+.icon-container:hover{
+    font-size: 1.5px;
+    background-color: #80CBC4;
+}
 .footer{
 	text-align: center;
 	font-size: 2em;
